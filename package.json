@@ -1,0 +1,31 @@
+{
+  "name": "hackhers2020",
+  "version": "1.0.0",
+  "description": "This is our Hackhers2020 project.",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TusharM1/Hackhers2020.git"
+  },
+  "keywords": [
+    "Hackhers",
+    "Rutgers"
+  ],
+  "author": "Tushar Mahajan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TusharM1/Hackhers2020/issues"
+  },
+  "homepage": "https://github.com/TusharM1/Hackhers2020#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "mocha": "^7.0.0",
+    "supertest": "^4.0.2"
+  }
+}
