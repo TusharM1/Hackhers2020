@@ -40,8 +40,7 @@ var findMeButton = $('.find-me');
 // Check if the browser has support for the Geolocation API
 if (!navigator.geolocation) {
 
-  findMeButton.addClass("disabled");
-  $('.no-browser-support').addClass("visible");
+  
 
 } else {
 
@@ -96,7 +95,6 @@ if (!navigator.geolocation) {
     </div>
   </form>
 
-  <p class="no-browser-support">Sorry, the Geolocation API isn't supported in Your browser.</p>
   <p class="coordinates">Latitude: <b class="latitude">42</b> Longitude: <b class="longitude">32</b></p>
 
   <div class="map-overlay">
